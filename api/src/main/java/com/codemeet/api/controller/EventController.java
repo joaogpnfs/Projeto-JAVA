@@ -22,5 +22,6 @@ public class EventController {
     Event newEvent = this.eventService.createEvent(body);
     return ResponseEntity.ok(newEvent);
   }
+  
 
 }
